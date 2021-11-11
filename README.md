@@ -21,3 +21,11 @@ Uma serie do [Marco Bruno](https://www.youtube.com/playlist?list=PLirko8T4cEmx5e
   No exemplo temos duas caixas (aplicando float) e um paragrafo (sem float).
   No paragrafo aplica-mos o clear booth para que ela descesse do contexto caso contrário ficaria tudo na mesma linha.
   ![screenshot](floats.png?raw=true "screenshot")
+
+## Positions
+
+- **relative**: Usa o pai como referência.
+
+- **static**: É o padrão do browser, estatico mantem a posição original.
+
+![screenshot](relative.png?raw=true "screenshot")

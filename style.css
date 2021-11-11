@@ -1,19 +1,23 @@
 .elementExample {
   width: 200px;
   height: 200px;
+  line-height: 200px;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  cursor: pointer;
 }
 .elementExample_first {
   background-color: #8e44ad;
-  float: left;
+  position: relative;
+  top: 200px;
 }
 .elementExample_last {
   background-color: #c0392b;
-  float: right;
+  position: relative;
+  z-index: 0;
 }
 
-p {
-  clear: both;
+.elementExample_isActive {
+  z-index: 1;
 }
