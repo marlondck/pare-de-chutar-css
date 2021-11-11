@@ -1,25 +1,19 @@
-.example {
+.elementExample {
+  width: 200px;
+  height: 200px;
   color: #fff;
-  text-align: justify;
+  text-transform: uppercase;
+  text-align: center;
 }
-.example::after {
-  content: "";
-  width: 100%;
-  display: inline-block;
+.elementExample_first {
+  background-color: #8e44ad;
+  float: left;
 }
-
-.example-item {
-  width: 25%;
-  height: 150px;
-  display: inline-block;
+.elementExample_last {
+  background-color: #c0392b;
+  float: right;
 }
 
-.example-item_first {
-  background-color: #faa116;
-}
-.example-item_second {
-  background-color: #57c7c3;
-}
-.example-item_third {
-  background-color: #3b97d3;
+p {
+  clear: both;
 }

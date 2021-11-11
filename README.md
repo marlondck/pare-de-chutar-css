@@ -11,3 +11,13 @@ Uma serie do [Marco Bruno](https://www.youtube.com/playlist?list=PLirko8T4cEmx5e
   Se não setar uma largura, o elemento irá ocupar 100% da tela.
 
 - **Inline-Block**: É a junção do inline e do block, é possível declarar altura e largura, e permite deixar os elementos na mesma linha.
+  ![screenshot](inline-block.png?raw=true "screenshot")
+
+## Floats
+
+- **floats**: Servem para posicionar elementos a direita ou a esquerda, porém eles criam um contexto(camada) novo de exibição, logo se pode-se ter conteúdos empilhados um em cima de outro e também inline.
+
+- **clear**: É uma propriedade que serve para limpar o contexto criado pelos floats.
+  No exemplo temos duas caixas (aplicando float) e um paragrafo (sem float).
+  No paragrafo aplica-mos o clear booth para que ela descesse do contexto caso contrário ficaria tudo na mesma linha.
+  ![screenshot](floats.png?raw=true "screenshot")
