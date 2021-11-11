@@ -9,3 +9,5 @@ Uma serie do [Marco Bruno](https://www.youtube.com/playlist?list=PLirko8T4cEmx5e
 - **Block**: É o padrão definido no browser, é possível usar as propriedades `height` e `width`.
   Os elementos são encaixados um abaixo do outro.
   Se não setar uma largura, o elemento irá ocupar 100% da tela.
+
+- **Inline-Block**: É a junção do inline e do block, é possível declarar altura e largura, e permite deixar os elementos na mesma linha.

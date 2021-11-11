@@ -1,11 +1,17 @@
 .example {
   color: #fff;
+  text-align: justify;
+}
+.example::after {
+  content: "";
+  width: 100%;
+  display: inline-block;
 }
 
 .example-item {
-  width: 33.333%;
+  width: 25%;
   height: 150px;
-  display: block;
+  display: inline-block;
 }
 
 .example-item_first {
@@ -13,9 +19,7 @@
 }
 .example-item_second {
   background-color: #57c7c3;
-  margin-left: auto;
 }
 .example-item_third {
   background-color: #3b97d3;
-  margin: auto;
 }
