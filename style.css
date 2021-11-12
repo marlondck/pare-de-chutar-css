@@ -1,36 +1,51 @@
-.elementExample {
-  width: 200px;
-  height: 200px;
-  line-height: 200px;
+.wrapper {
+  padding-top: 125px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+
+  padding: 20px 40px;
+  border-bottom: 1px solid #222f3e;
+  margin-bottom: 30px;
+}
+.header-logo {
+  height: 50px;
+}
+.banner {
+  position: fixed;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background-color: #5f27cd;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
 }
-.elementExample_first {
-  background-color: #6c5ce7;
-  position: absolute;
-  right: 0;
+.button {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  /* width: 160px; */
+  height: 40px;
+  opacity: 0.95;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #1dd1a1;
 }
-.elementExample_second {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #00b894;
-}
-.elementExample_last {
-  position: absolute;
-  background-color: #d63031;
-}
-.elementExample-internal {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  background-color: #00cec9;
+p {
+  margin-bottom: 20px;
 }

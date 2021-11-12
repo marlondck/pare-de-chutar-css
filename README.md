@@ -24,11 +24,13 @@ Uma serie do [Marco Bruno](https://www.youtube.com/playlist?list=PLirko8T4cEmx5e
 
 ## Positions
 
-- **relative**: Usa o pai como referência.
+- **relative**: posiciona o elemento em relação a si mesmo. Ou seja, o ponto zero será o canto superior esquerdo, e ele começará a contar a partir dali. Todos os positions precisam de um ponto para iniciar o cálculo da coordenada para assim posicionar o elemento na tela. Ao contrário do que muitos acham, esse ponto não é o ponto central do elemento, o ponto base é o canto superior esquerdo do elemento. A partir deste canto, o browser irá calcular a coordenada que você definiu e irá posicionar o elemento no viewport.
 
 - **static**: É o padrão do browser, estatico mantem a posição original.
 
 ![screenshot](relative.png?raw=true "screenshot")
 
-- **absolute**: posiciona o elemento usando como referência a window.
+- **absolute**: posiciona o elemento usando como referência a window ou o pai.
   A propriedade `transform: translate` usa a largura do elemento como referencia.
+
+- **fixed**: bem parecido com absolute irá fixar a posição do elemento na coordenada que você definir. A medida que a página é rolada, o elemento continua fixo na posição que você definiu e o conteúdo da página rola normalmente. Geralmente é usado para fixar elementos como cabeçalhos ou sidebars.
