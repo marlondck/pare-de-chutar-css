@@ -29,3 +29,6 @@ Uma serie do [Marco Bruno](https://www.youtube.com/playlist?list=PLirko8T4cEmx5e
 - **static**: É o padrão do browser, estatico mantem a posição original.
 
 ![screenshot](relative.png?raw=true "screenshot")
+
+- **absolute**: posiciona o elemento usando como referência a window.
+  A propriedade `transform: translate` usa a largura do elemento como referencia.
